@@ -1,0 +1,64 @@
+/* HEADER */
+
+.header{
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  align-items: center;
+  background-color: lightgrey;
+  font-size: 13px;
+}
+
+.header_left{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 10px;
+}
+
+#website_name {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header_right{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.avatar, .header_link{
+  margin-right: 25px;
+}
+
+.header_link{
+  color: #424242;
+}
+
+.avatar{
+  height: auto;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.navbar_button{
+  font-size: 13px;
+  height: 45px;
+  width: 100px;
+  font-weight: bold;
+  background-color:black;
+  color:red;
+  border: solid;
+  vertical-align: baseline ;
+  margin-left: 10px;
+  margin-right: 5px;
+  border-radius: 20%;
+  padding: 5px;
+  transition: 1s;
+}
+
+.navbar_button:hover{
+  background-color: blue;
+}
