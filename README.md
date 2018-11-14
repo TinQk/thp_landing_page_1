@@ -1,24 +1,8 @@
-# README
+# THP WEEK 7 !! (déja !!?)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## ON RENOUE AVEC LE FRONT - lol -
 
-Things you may want to cover:
 
-* Ruby version
+### UN LIEN EN PROD, MON GARS : https://tinqk-landingpage1.herokuapp.com/home/index
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Bon appétit !!
