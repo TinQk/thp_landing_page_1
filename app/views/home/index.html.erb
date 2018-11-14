@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Google</title
-        <link rel="icon" href="<%= image_tag "notifbell.png" %>">
+        <link rel="icon" href="/assets/notifbell.png">
     </head>
     <body>
 
@@ -11,7 +11,7 @@
         <div class="header">
 
           <div class="header_left">
-            <img class="avatar" src="<%= image_tag "logo.png" %>"/>
+            <img class="avatar" <%= image_tag "logo.png" %>
             <div id="website_name">
               <h2>Le site de Quentin</h2>
             </div>
@@ -22,7 +22,7 @@
 
           <div class="header_right">
             <a class="header_link" href="">Quentin</a>
-            <img class="avatar" src="<%= image_tag "avatar.png" %>"/>
+            <img class="avatar" <%= image_tag "avatar.png" %>
           </div>
 
         </div>
@@ -45,7 +45,7 @@
           </div>
           <div class="main_content">
             <div class="content_image">
-              <img id="img" src="<%= image_tag "program.png" %>"/>
+              <img id="img" <%= image_tag "program.png" %>
             </div>
             <div class=content_text>
               <p>Blablabla</p>
@@ -56,7 +56,7 @@
           <div id="Author" class="tabcontent">
           <div>
             <div class="card">
-              <img class=card_img src="<%= image_tag "avatar.png" %>" alt="Avatar">
+              <img class=card_img alt="Avatar" <%= image_tag "avatar.png" %>
               <div class="card_container">
                 <h4><b>John Doe</b></h4>
                 <p>Architect & Engineer</p>
